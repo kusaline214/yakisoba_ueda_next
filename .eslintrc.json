@@ -1,3 +1,44 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "next/core-web-vitals", "next/typescript",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "semi": ["error", "always"],              // 行末にセミコロンを必須
+    "quotes": ["error", "single"],             // シングルクォートを強制
+    "no-unused-vars": "warn",                  // 未使用の変数に警告
+    "react/react-in-jsx-scope": "off",         // React 17以降は不要
+    "react/prop-types": "off",                 // TypeScript使用時は不要
+    "@typescript-eslint/no-unused-vars": ["warn"],
+    "prettier/prettier": ["error", {           // PrettierのエラーをESLintに反映
+      "singleQuote": true,
+      "semi": true
+    }]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

@@ -13,12 +13,13 @@ const NewsBox = styled.div`
   border: 2px solid #333333a2;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #33333359;
+  margin-top:30px
 `;
 
 export default function Home() {
   return (
-    <>
-      <div className="px-5">
+    <div className="">
+      <div className="px-5 md:px-0 md:py-5">
         <Header />
         <NewsBox className="md:max-w-[800px] md:mx-auto m-y-[20px]">
           <h2 className="text-[1.5rem] text-black text-center my-[10px]">
@@ -34,12 +35,13 @@ export default function Home() {
         <Concept />
         <Commitment />
         <Menu />
-        <div className="md:flex">
+        <div className="md:flex md:w-[800px] md:mx-auto">
           <Map />
           <Contact />
         </div>
       </div>
+      
       <Footer />
-    </>
+    </div>
   );
 }

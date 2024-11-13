@@ -14,7 +14,7 @@ const Concept = () => {
   return (
     <ConceptBox className="md:w-[800px] md:mx-auto">
       <h3 className="text-xl text-center my-4">うえだの歴史</h3>
-      <div className="px-4 text-sm">
+      <div className="px-4 text-sm md:text-xl md:px-20">
         <p className="">
           昭和49年:「双月」相川店をオープン（現在は閉店）
           <br />

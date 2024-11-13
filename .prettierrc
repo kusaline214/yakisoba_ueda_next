@@ -1,0 +1,15 @@
+{
+  "printWidth": 80,             // 1行の最大文字数（一般的には80か100）
+  "tabWidth": 2,                // インデントのスペース数
+  "useTabs": false,             // スペースの代わりにタブを使用するか
+  "semi": true,                 // 行末にセミコロンを追加するか
+  "singleQuote": true,          // シングルクォートを使用するか
+  "quoteProps": "as-needed",    // オブジェクトのプロパティの引用スタイル
+  "jsxSingleQuote": false,      // JSX内でシングルクォートを使用するか
+  "trailingComma": "es5",       // 末尾のカンマの設定（"none" | "es5" | "all"）
+  "bracketSpacing": true,       // オブジェクトリテラルの波括弧内にスペースを追加するか
+  "bracketSameLine": false,     // HTML, JSXタグの閉じ括弧を同じ行にするか
+  "arrowParens": "always",      // アロー関数の引数に括弧を付けるか
+  "proseWrap": "preserve",      // Markdownの改行の処理
+  "endOfLine": "lf"             // 改行コードの設定（"lf" | "crlf" | "cr" | "auto"）
+}
