@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="md:max-w-[1200px] md:m-auto">
+    <div className="md:max-w-[1200px] md:m-auto my-5">
       <Image
         src={"/logo.jpg"}
         alt={""}

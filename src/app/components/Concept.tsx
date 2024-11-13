@@ -3,8 +3,11 @@ import React from "react";
 import styled from "styled-components";
 const ConceptBox = styled.div`
   padding: 30px 0;
-  border: 1px solid #333;
   margin: 50px auto;
+
+  border: 2px solid #333333a2;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #33333359;
 `;
 
 const Concept = () => {

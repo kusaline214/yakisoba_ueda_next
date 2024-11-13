@@ -3,7 +3,9 @@ import React from "react";
 import styled from "styled-components";
 
 const CommitmentBox = styled.div`
-  border: 1px solid #000;
+  border: 2px solid #333333a2;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #33333359;
 `;
 
 const Commitment = () => {
