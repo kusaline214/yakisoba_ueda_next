@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="md:max-w-[1200px] md:m-auto my-5">
       <Image
-        src={"/logo.jpg"}
+        src={"/logo.JPG"}
         alt={""}
         width={1280}
         height={720}

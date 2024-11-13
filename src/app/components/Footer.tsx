@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 const BottomLogo = styled.div`
-  background-image: url(/logo.jpg);
+  background-image: url("/logo.JPG");
   background-position: center;
   background-size: cover;
   height: 200px;
